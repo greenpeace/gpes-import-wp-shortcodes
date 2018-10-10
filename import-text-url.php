@@ -35,5 +35,6 @@ function shortcode_import_url_text($params) {
 
 add_shortcode('import_url_text', 'shortcode_import_url_text');
 add_shortcode('import_text_url', 'shortcode_import_url_text');
+add_shortcode('magaz_import_url_text', 'shortcode_import_url_text');
 
 ?>

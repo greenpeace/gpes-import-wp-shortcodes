@@ -34,5 +34,6 @@ function shortcode_import_text_file($params) {
 
 add_shortcode('import_text_file', 'shortcode_import_text_file');
 add_shortcode('import_file_text', 'shortcode_import_text_file');
+add_shortcode('magaz_import_file_text', 'shortcode_import_text_file');
 
 ?>

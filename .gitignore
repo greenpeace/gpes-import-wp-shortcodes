@@ -3,4 +3,5 @@
 !/README.md
 !import-text-file.php
 !import-text-url.php
+!LICENSE
 .DS_Store

@@ -2,4 +2,5 @@
 !/.gitignore
 !/README.md
 !import-text-file.php
+!import-text-url.php
 .DS_Store

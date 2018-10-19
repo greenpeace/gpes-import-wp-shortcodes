@@ -19,4 +19,10 @@ Normally used with **html** files or URLs, but it can also be used to import **j
 
 ## How to install
 
-Upload the folders **import-text-file** and **import-text-url** to **wp-content/plugins**.
+Upload the folders **import-text-file** and **import-text-url** to **wp-content/plugins** and activate both plugins.
+
+## Graphic User Interface
+
+The shortcode **import_text_url** already has a graphic user interface using Shortcake (Shortcode UI). To install the GUI upload the folder **import-text-url-ui** to **wp-content/plugins**.
+
+Soon we'll have the a similar GUI to the shortcode **import-text-file**.

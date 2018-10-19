@@ -9,5 +9,9 @@
 !import-text-url/*
 !import-text-url/languages/
 !import-text-url/languages/*
+!import-text-url-ui/
+!import-text-url-ui/*
+!import-text-url-ui/languages/
+!import-text-url-ui/languages/*
 !LICENSE
 .DS_Store

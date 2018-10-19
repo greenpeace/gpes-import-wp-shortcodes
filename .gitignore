@@ -1,7 +1,13 @@
-/**
+/*
 !/.gitignore
 !/README.md
-!import-text-file.php
-!import-text-url.php
+!import-text-file/
+!import-text-file/*
+!import-text-file/languages/
+!import-text-file/languages/*
+!import-text-url/
+!import-text-url/*
+!import-text-url/languages/
+!import-text-url/languages/*
 !LICENSE
 .DS_Store

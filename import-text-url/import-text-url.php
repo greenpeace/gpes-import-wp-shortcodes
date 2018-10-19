@@ -8,7 +8,9 @@ Plugin Name: Import Text URL
 Plugin URI: https://github.com/greenpeace/gpes-import-wp-shortcodes/
 Description: Shortcode to import an html url. For example: <code>[import_text_url url='https://apps.greenpeace.es/data-vis/import/chart.html']</code> FOR DEVELOPMENT ONLY. DO NOT USE IN PRODUCTION PAGES!
 Author: Osvaldo Gago
-Version: 0.1
+Text Domain: import-text-url
+Domain Path: /languages
+Version: 1.0
 Author URI: https://osvaldo.pt
 */
 

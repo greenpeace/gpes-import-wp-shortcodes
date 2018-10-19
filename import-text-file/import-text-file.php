@@ -12,6 +12,8 @@ Version: 0.1
 Author URI: https://osvaldo.pt
 */
 
+defined( 'ABSPATH' ) or die( 'You can\'t do that !' );
+
 /**
  * Imports a file into a page with a shortcode like:
  * [import_text_file file='/wp-content/uploads/2018/09/mapa-pagos-por-capacidad.html']

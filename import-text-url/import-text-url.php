@@ -12,6 +12,8 @@ Version: 0.1
 Author URI: https://osvaldo.pt
 */
 
+defined( 'ABSPATH' ) or die( 'You can\'t do that !' );
+
 /**
  * Imports an external URL with a shortcode like:
  * [import_url_text url='https://apps.greenpeace.es/data-vis/import/chart.html']

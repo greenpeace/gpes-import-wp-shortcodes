@@ -6,7 +6,7 @@
 /*
 Plugin Name: Import Text File
 Plugin URI: https://github.com/greenpeace/gpes-import-wp-shortcodes/
-Description: Shortcode to import an html file uploaded in the media library. For example: [import_text_file file='/wp-content/uploads/2018/09/mapa-pagos-por-capacidad.html']
+Description: Shortcode to import an html file uploaded in the media library. For example: <code>[import_text_file file='/wp-content/uploads/2018/09/mapa-pagos-por-capacidad.html']</code>
 Author: Osvaldo Gago
 Version: 0.1
 Author URI: https://osvaldo.pt
@@ -32,8 +32,8 @@ function shortcode_import_text_file($params) {
     
 }
 
-add_shortcode('import_text_file', 'shortcode_import_text_file');
-add_shortcode('import_file_text', 'shortcode_import_text_file');
-add_shortcode('magaz_import_file_text', 'shortcode_import_text_file');
+add_shortcode('import_text_file', 'shortcode_import_text_file'); // New syntax
+add_shortcode('import_file_text', 'shortcode_import_text_file'); // Legacy syntax in es.greenpeace.org
+add_shortcode('magaz_import_file_text', 'shortcode_import_text_file'); // Legacy syntax in revista.greenpeace.es
 
 ?>

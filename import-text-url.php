@@ -6,7 +6,7 @@
 /*
 Plugin Name: Import Text URL
 Plugin URI: https://github.com/greenpeace/gpes-import-wp-shortcodes/
-Description: Shortcode to import an html url. For example: [import_text_url url='https://apps.greenpeace.es/data-vis/import/chart.html'] FOR DEVELOPMENT ONLY. DO NOT USE IN PRODUCTION PAGES!
+Description: Shortcode to import an html url. For example: <code>[import_text_url url='https://apps.greenpeace.es/data-vis/import/chart.html']</code> FOR DEVELOPMENT ONLY. DO NOT USE IN PRODUCTION PAGES!
 Author: Osvaldo Gago
 Version: 0.1
 Author URI: https://osvaldo.pt
@@ -33,8 +33,8 @@ function shortcode_import_url_text($params) {
     
 }
 
-add_shortcode('import_url_text', 'shortcode_import_url_text');
-add_shortcode('import_text_url', 'shortcode_import_url_text');
-add_shortcode('magaz_import_url_text', 'shortcode_import_url_text');
+add_shortcode('import_url_text', 'shortcode_import_url_text'); // Legacy syntax in es.greenpeace.org
+add_shortcode('import_text_url', 'shortcode_import_url_text'); // New syntax
+add_shortcode('magaz_import_url_text', 'shortcode_import_url_text'); // Legacy syntax in revista.greenpeace.es
 
 ?>

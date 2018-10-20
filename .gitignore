@@ -13,5 +13,9 @@
 !import-text-url-ui/*
 !import-text-url-ui/languages/
 !import-text-url-ui/languages/*
+!import-text-file-ui/
+!import-text-file-ui/*
+!import-text-file-ui/languages/
+!import-text-file-ui/languages/*
 !LICENSE
 .DS_Store

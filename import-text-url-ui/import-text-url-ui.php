@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Import text URL UI
  * Plugin URI: https://github.com/greenpeace/gpes-import-wp-shortcodes/
- * Version: 0.1
+ * Version: 0.2
  * Description: Adds an GUI to use the [import_text_url] shortcode. This plugin requires the plugin Shortcake (Shortcode UI)
  * Author: Osvaldo Gago
  * Author URI: https://osvaldo.pt

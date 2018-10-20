@@ -17,12 +17,17 @@ Normally used with **html** files or URLs, but it can also be used to import **j
 [import_text_url url='https://apps.greenpeace.es/data-vis/import/chart.html']
 ```
 
-## How to install
+Please note that **import_text_url** must never be used in production as it can overload the servers in high traffic pages!
 
-Upload the folders **import-text-file** and **import-text-url** to **wp-content/plugins** and activate both plugins.
+## How to install the shortcodes
+
+1. Upload the folders **import-text-file** and **import-text-url** to **wp-content/plugins** 
+2. Activate both plugins: **Import Text File** and **Import Text URL**
 
 ## Graphic User Interface
 
-The shortcode **import_text_url** already has a graphic user interface using Shortcake (Shortcode UI). To install the GUI upload the folder **import-text-url-ui** to **wp-content/plugins**.
+The shortcodes **import_text_url** and **import_text_file** have a GUI using Shortcake (Shortcode UI). To install the GUI:
 
-Soon we'll have the a similar GUI to the shortcode **import-text-file**.
+1. Install and activate the plugin [Shortcake (Shortcode UI)](https://wordpress.org/plugins/shortcode-ui/)
+2. Upload the folders  **import-text-file-ui** and **import-text-url-ui** to **wp-content/plugins**
+3. Activate both **Import text file UI** and **Import text URL UI** in the plugins admin page.

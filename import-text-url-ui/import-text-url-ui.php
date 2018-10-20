@@ -10,6 +10,16 @@
  * Domain Path: /languages
  */
 
+defined( 'ABSPATH' ) or die( 'You can\'t do that !' );
+
+/**
+ * Initiate plugin's translations
+ */
+function import_text_url_load_plugin_textdomain() {
+    load_plugin_textdomain( 'import-text-url-ui', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'import_text_url_load_plugin_textdomain' );
+
 /**
  * Shortcake UI detection
  */

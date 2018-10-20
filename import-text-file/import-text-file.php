@@ -10,7 +10,7 @@ Description: Shortcode to import an html file uploaded in the media library. For
 Author: Osvaldo Gago
 Text Domain: import-text-file
 Domain Path: /languages
-Version: 1.0
+Version: 1.1
 Author URI: https://osvaldo.pt
 */
 

@@ -10,7 +10,7 @@ Description: Shortcode to import an html url. For example: <code>[import_text_ur
 Author: Osvaldo Gago
 Text Domain: import-text-url
 Domain Path: /languages
-Version: 1.0
+Version: 1.1
 Author URI: https://osvaldo.pt
 */
 

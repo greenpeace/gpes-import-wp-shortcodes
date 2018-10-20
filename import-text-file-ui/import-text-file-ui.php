@@ -33,7 +33,7 @@ function shortcode_ui_import_text_file_notices() {
 	if ( current_user_can( 'activate_plugins' ) ) {
 		?>
 		<div class="error message">
-			<p>Shortcode UI plugin must be active for Shortcode UI Import Text File plugin to function.</p>
+			<p><?php __('Shortcode UI plugin must be active for Shortcode UI Import Text File plugin to function.', 'import-text-file-ui') ?></p>
 		</div>
 		<?php
 	}
@@ -48,8 +48,8 @@ function shortcode_ui_import_text_file() {
     
     $import_text_file_fields = array(
         array(
-			'label'  => 'File path to import',
-			'description'  => 'Add the filepath of the file, from the Wordpress root. For example: <strong>/wp-content/uploads/sites/3/2018/09/modal-mapa-exportacion-armas-1.html</strong>',
+			'label'  => __('File path to import', 'import-text-file-ui'),
+			'description'  => __('Add the filepath of the file, from the Wordpress root. For example: <strong>/wp-content/uploads/sites/3/2018/09/modal-mapa-exportacion-armas-1.html</strong>', 'import-text-file-ui'),
 			'attr'   => 'file',
 			'type'   => 'text',
 			'encode' => false,
@@ -61,7 +61,7 @@ function shortcode_ui_import_text_file() {
     );
     
     $import_text_file_args = array(
-		'label' => 'Import text file',
+		'label' => __('Import text file', 'import-text-file-ui'),
 		'listItemImage' => 'dashicons-media-code',
 		'attrs' => $import_text_file_fields,
 	);

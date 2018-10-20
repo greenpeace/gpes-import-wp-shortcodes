@@ -33,8 +33,8 @@ function shortcode_ui_import_text_url_notices() {
 	if ( current_user_can( 'activate_plugins' ) ) {
 		?>
 		<div class="error message">
-			<p>Shortcode UI plugin must be active for Shortcode UI Example plugin to function.</p>
-		</div>
+			<p><?php __('Shortcode UI plugin must be active for Shortcode UI Import Text URL plugin to function.', 'import-text-url-ui') ?></p>		
+        </div>
 		<?php
 	}
 }
@@ -48,7 +48,8 @@ function shortcode_ui_import_text_url() {
     
     $import_text_url_fields = array(
         array(
-			'label'  => 'URL to import',
+			'label'  => __('URL to import', 'import-text-url-ui'),
+			'description'  => __('Add the URL to a text file (html, css, js, svg) For example: <strong>https://apps.greenpeace.es/data-vis/import/chart.html</strong>', 'import-text-url-ui'),
 			'attr'   => 'url',
 			'type'   => 'text',
 			'encode' => false,
@@ -60,7 +61,7 @@ function shortcode_ui_import_text_url() {
     );
     
     $import_text_url_args = array(
-		'label' => 'Import text URL',
+		'label' => __('Import text URL', 'import-text-url-ui'),
 		'listItemImage' => 'dashicons-media-code',
 		'attrs' => $import_text_url_fields,
 	);

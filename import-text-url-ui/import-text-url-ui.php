@@ -6,7 +6,7 @@
  * Description: Adds an GUI to use the [import_text_url] shortcode. This plugin requires the plugin Shortcake (Shortcode UI)
  * Author: Osvaldo Gago
  * Author URI: https://osvaldo.pt
- * Text Domain: import-text-url
+ * Text Domain: import-text-url-ui
  * Domain Path: /languages
  */
 

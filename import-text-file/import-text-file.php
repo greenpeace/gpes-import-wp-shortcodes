@@ -40,4 +40,19 @@ add_shortcode('import_text_file', 'shortcode_import_text_file'); // New syntax
 add_shortcode('import_file_text', 'shortcode_import_text_file'); // Legacy syntax in es.greenpeace.org
 add_shortcode('magaz_import_file_text', 'shortcode_import_text_file'); // Legacy syntax in revista.greenpeace.es
 
+/**
+ * Allows some types we'll need to upload trough the media section
+ * @param  array $mimes Standard parameter used by Wordpress
+ * @return array Modified parameter
+ */
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  $mimes['html'] = 'text/html';
+  $mimes['css'] = 'text/css';
+  $mimes['js'] = 'application/javascript';
+  return $mimes;
+}
+
+add_filter('upload_mimes', 'cc_mime_types');
+
 ?>

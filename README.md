@@ -1,9 +1,11 @@
-# Shortcodes to import frontend code
+# Wordpress shortcodes to import frontend code
 
 Shortcodes to:
 
 * Import a text file that was uploaded to the media library.
 * Import an external URL (Use for development only! Please!)
+
+With the plugin **Import Text File** you can develop svg, html, css and javascript externally and insert it in your pages using a shortcode. This plugin also lifts restrictions on uploading svg, html, css and javascript files to the media library.
 
 ## How to use
 
@@ -17,7 +19,7 @@ Normally used with **html** files or URLs, but it can also be used to import **j
 [import_text_url url='https://apps.greenpeace.es/data-vis/import/chart.html']
 ```
 
-Please note that **import_text_url** must never be used in production as it can overload the servers in high traffic pages!
+Please note that the shortcode **import_text_url** must never be used in production as it can overload the servers in high traffic pages!
 
 ## How to install the shortcodes
 

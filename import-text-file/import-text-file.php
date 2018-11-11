@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Import_Text_File
- * @version 0.1
+ * @version 1.2
  */
 /*
 Plugin Name: Import Text File
@@ -10,7 +10,7 @@ Description: Shortcode to import an html file uploaded in the media library. For
 Author: Osvaldo Gago
 Text Domain: import-text-file
 Domain Path: /languages
-Version: 1.1
+Version: 1.2
 Author URI: https://osvaldo.pt
 */
 

@@ -9,7 +9,7 @@ With the plugin **Import Text File** you can develop svg, html, css and javascri
 
 ## How to use
 
-Normally used with **html** files or URLs, but it can also be used to import **javascript**, **css** or **svg**.
+Normally used with **html** files or URLs, but it can also be used to import **javascript**, **css**, **svg** or **txt**.
 
 **Examples:**
 
@@ -20,6 +20,8 @@ Normally used with **html** files or URLs, but it can also be used to import **j
 ```
 
 Please note that the shortcode **import_text_url** must never be used in production as it can overload the servers in high traffic pages!
+
+Also please note that in some environments you might need to upload **.txt** files instead of **.html** Specially if you get security alerts when you upload an html file.
 
 ## How to install the shortcodes
 

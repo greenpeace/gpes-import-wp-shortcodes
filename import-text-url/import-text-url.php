@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Import_Text_URL
- * @version 0.1
+ * @version 1.3
  */
 /*
 Plugin Name: Import Text URL
@@ -10,7 +10,7 @@ Description: Shortcode to import an html url. For example: <code>[import_text_ur
 Author: Osvaldo Gago
 Text Domain: import-text-url
 Domain Path: /languages
-Version: 1.1
+Version: 1.3
 Author URI: https://osvaldo.pt
 */
 

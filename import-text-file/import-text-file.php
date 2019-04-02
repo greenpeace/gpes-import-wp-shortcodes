@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Import_Text_File
- * @version 1.2
+ * @version 1.3
  */
 /*
 Plugin Name: Import Text File

@@ -50,6 +50,7 @@ function cc_mime_types($mimes) {
   $mimes['html'] = 'text/html';
   $mimes['css'] = 'text/css';
   $mimes['js'] = 'application/javascript';
+  $mimes['txt'] = 'text/plain';
   return $mimes;
 }
 
